@@ -1,7 +1,6 @@
 import * as Styled from "./style";
 
 import logo from "../../assets/images/logo.svg";
-import menu from "../../assets/images/menu.svg";
 
 import Button from "../Button";
 import { useState } from "react";

@@ -73,6 +73,8 @@ export const MenuNavigate = styled.menu`
   animation-duration: 2s;
   animation-delay: 1s;
 
+  z-index: 10;
+
   position: absolute;
   top: 30px;
   right: 0;
