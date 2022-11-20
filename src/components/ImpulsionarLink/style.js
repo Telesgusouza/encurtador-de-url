@@ -3,7 +3,7 @@ import bgMobile from "../../assets/images/bg-boost-mobile.svg";
 
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.section`
   background-color: hsl(257, 27%, 26%);
   background-image: url(${bgDesktop});
   background-position: center;

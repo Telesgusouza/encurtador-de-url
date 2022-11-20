@@ -6,7 +6,7 @@ export const Container = styled.section`
   background-color: hsl(230, 25%, 95%);
 `;
 
-export const ContainerContent = styled.div`
+export const ContainerContent = styled.article`
   max-width: 400px;
   text-align: center;
   margin: 0 auto;
@@ -23,7 +23,7 @@ export const ContainerContent = styled.div`
   }
 `;
 
-export const ContainerOptionsDescriptions = styled.div`
+export const ContainerOptionsDescriptions = styled.article`
   position: relative;
   margin-top: 70px;
   display: grid;

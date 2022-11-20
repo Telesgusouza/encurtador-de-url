@@ -31,10 +31,20 @@ export const ContainerSearch = styled.div`
     border-radius: 5px;
     border: none;
 
+    border:${props=>props.border?'1px solid red':'none'} ; // 1px solid red
+
     margin-right: 15px;
     width: 100%;
 
     padding: 5px 15px;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  div {
+    width: fit-content;
   }
 
   button {

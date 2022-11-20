@@ -55,6 +55,10 @@ export const ContainerContent = styled.div`
     color: #c0c0c0;
     font-size: 0.8em;
     text-decoration: none;
+
+    &:hover {
+        color: hsl(180, 66%, 49%);
+      }
   }
 
   @media (max-width: 780px) {
@@ -62,6 +66,8 @@ export const ContainerContent = styled.div`
 
     a {
       font-size: 0.7em;
+
+      
     }
 
     h5 {
@@ -94,9 +100,15 @@ export const ContainerSocialNetworks = styled.div`
   img {
     height: 100%;
     margin-left: 14px;
+    cursor: pointer;
 
     &:nth-child(1) {
       margin-left: 0;
+    }
+
+    &:hover  svg > path {
+        /* color: hsl(180, 66%, 49%); */
+        fill: hsl(180, 66%, 49%);
     }
   }
 

@@ -7,7 +7,7 @@ import designImg from '../../assets/images/icon-fully-customizable.svg';
 export default function AdvancedStatistics() {
   return (
     <Styled.Container>
-      <section className="center">
+      <div className="center">
         <Styled.ContainerContent>
           <h2>Estatísticas Avançadas</h2>
           <p>
@@ -56,7 +56,7 @@ export default function AdvancedStatistics() {
 
           <Styled.LineOption />
         </Styled.ContainerOptionsDescriptions>
-      </section>
+      </div>
     </Styled.Container>
   );
 }

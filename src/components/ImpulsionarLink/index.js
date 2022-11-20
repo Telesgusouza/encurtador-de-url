@@ -4,10 +4,10 @@ import * as Styled from "./style";
 export default function ImpulsionarLink() {
   return (
     <Styled.Container>
-      <section className="center">
+      <div className="center">
         <h4>Impulsione seus links hoje</h4>
         <Button> Iniciar </Button>
-      </section>
+      </div>
     </Styled.Container>
   );
 }
