@@ -63,7 +63,7 @@ export default function InputShortening() {
   function handleCopy(text) {
     copy(text);
 
-    
+    alert('link copiado');
   }
 
   return (
