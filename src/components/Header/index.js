@@ -17,9 +17,9 @@ export default function Header() {
       <Styled.ContainerNav>
         <img src={logo} alt="logo do site" />
         <nav>
-          <a href="*">Recursos</a>
-          <a href="*">Preços</a>
-          <a href="*">Recursos</a>
+          <a href="#">Recursos</a>
+          <a href="#">Preços</a>
+          <a href="#">Recursos</a>
         </nav>
       </Styled.ContainerNav>
       <Styled.ContainerButton>
@@ -44,9 +44,9 @@ export default function Header() {
         {menu && (
           <Styled.MenuNavigate>
             <nav>
-              <a href="*">Recursos</a>
-              <a href="*">Preços</a>
-              <a href="*">Recursos</a>
+              <a href="#">Recursos</a>
+              <a href="#">Preços</a>
+              <a href="#">Recursos</a>
             </nav>
 
             <Styled.ContainerButtonMenu>

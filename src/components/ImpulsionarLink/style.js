@@ -21,10 +21,15 @@ export const Container = styled.section`
 
   button {
     margin-top: 12px;
-    font-size: .96em;
+    font-size: 0.96em;
   }
 
   @media (max-width: 400px) {
     background-image: url(${bgMobile});
   }
+`;
+
+export const ContainerButton = styled.div`
+  width: fit-content;
+  margin: 0 auto;
 `;

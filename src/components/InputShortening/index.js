@@ -10,6 +10,8 @@ export default function InputShortening() {
   const [errorSearch, setErrorSearch] = useState(false);
   const [listLinks, setListLinks] = useState([]);
 
+  const [copied, setCopied] = useState(false);
+
   useEffect(() => {
     setTimeout(() => {
       if (errorSearch) {
